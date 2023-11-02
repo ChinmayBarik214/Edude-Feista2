@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+}
+header {
+    display: flex;
+}
+.banner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-image {
+    width: 55%;
+    height: 100vh;
+    background-image: url('./hero-image.jpg');
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    background-position: 25% 75%;
+}
+.hero-text-container {
+    letter-spacing: 2px;
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    width: 45%;
+    color: #fff;
+    background-color: #000;
+}
+.hero-text-container > div {
+    border-right: 20px solid white;
+    margin-right: 60px;
+    padding-right: 40px;
+}
+.hero-button {
+    background-color: #fff;
+    padding: 15px 80px !important;
+    border-radius: 50px;
+}
